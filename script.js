@@ -32,7 +32,7 @@ function rotateImg(x, pagex) {
 	var deg_n = deg + (x-pagex) / 4;
 	deg = deg_n % 360;
 	imgUsagi.style.transform = "rotate(" + deg + "deg)";
-	if((deg <= -225) || ((-135 <= deg) && (deg <= 45)) || (225 <= deg)) {
+	if((deg <= -315) || ((-135 <= deg) && (deg <= 45)) || (225 <= deg)) {
 		spanSakasa.innerHTML = "sakasa ";
 	} else {
 		spanSakasa.innerHTML = "";
