@@ -1,18 +1,22 @@
+html {
+  margin: 0;
+  height: 100%;
+  touch-event: none;
+}
+
 body {
 	margin: 100px;
 	font-family: sans-serif;
 	overflow: hidden;
-	touch-action: none;
 }
 
 p {
 	font-size: 1.2em;
- 		
 }
 
 img {
- width: 15em;
- height: auto; 
+  width: 15em;
+  height: auto; 
 }
 
 #guide {

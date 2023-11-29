@@ -7,10 +7,6 @@ const spanSakasa = document.getElementById('sakasa');
 const imgUsagi = document.getElementById('usagiimg');
 const guide = document.getElementById('guide');
 
-document.addEventListener('touchmove', e => {
-	e.preventDefault();
-});
-
 document.addEventListener('pointerdown', e => {
 	guide.style.display = "none";
 	x = e.pageX;
